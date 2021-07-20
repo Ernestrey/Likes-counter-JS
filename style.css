@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-top: 15%;
+  max-width: 1170px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.like-inner {
+  margin: 0 auto;
+}
+
+.like-heart{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.like-heart img {
+  opacity: .8;
+}
+
+.like-heart img:hover {
+  opacity: 1;
+}
+
+.like-heart:active {
+  background: url('../Like-counter/img/heart-click.png') no-repeat;
+}
+
+.like-heart.added {
+  background: url('../Like-counter/img/heart-click.png') no-repeat;
+}
+
+.like-number {
+  line-height: 100px;
+  margin-left: 20px;
+  font-size: 56px;
+}
